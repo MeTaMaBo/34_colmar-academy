@@ -79,6 +79,7 @@
 }
 
 .section-1{
+    display: flex;
     background-color: darkgray;
     padding: 32px 24px;
 }
