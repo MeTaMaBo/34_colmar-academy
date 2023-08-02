@@ -1,0 +1,85 @@
+                /* Variables */
+                
+                @import url('https://fonts.google.com/specimen/Kanit?subset=thai');
+                @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+                 :root {
+                    --orange: rgba(203, 89, 31, 1);
+                    --orange-seceondary: rgba(254, 111, 39, 1);
+                    --darkblue: rgba(0, 53, 121, 1);
+                    --blue: rgba(0, 126, 177, 1);
+                    --black: rgba(47, 47, 47, 1);
+                    --white: #ffffff;
+                    --gray: rgb(192, 192, 192);
+                    --white-alpha-40: rgba(255, 255, 255, 0.4);
+                    --white-alpha-25: rgba(255, 255, 255, 0.4);
+                    --orange-alpha-80: rgba(203, 89, 31, 0.8);
+                    --blue-alpha-20: rgba(23, 97, 160, 0.2);
+                    --shadown-alpha-20: var(--black);
+                    --backdrop-filter-blur: blur(5px);
+                }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 24px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 2rem;
+}
+
+.logo span{
+    font-size: 1.5rem;
+    font-family:'Segoe UI';
+    color: var(--gray);
+}
+
+.logo strong{
+    color: black;
+    font-size: 1.5rem;
+    font-family:'Segoe UI';
+}
+
+.menubar{
+    display: flex;
+    font-size: 18px;
+    width: 21rem;
+    justify-content: space-around;
+    
+    
+}
+
+.menubar a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.menubar a:hover{
+    
+    color: rgb(173, 173, 173);
+}
+
+.section-1{
+    background-color: darkgray;
+    padding: 32px 24px;
+}
+
